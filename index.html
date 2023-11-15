@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+		<!-- Poppins 400 italic & 700 & 800 italic -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Frontend Mentor | Age calculator app</title>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="age-calculator">
+			<div class="age-inputs">
+				<div class="day-input">
+					<span>Day</span>
+					<input class="input-day" type="text" placeholder="DD  " />
+					<p class="error-day"></p>
+				</div>
+
+				<div class="month-input">
+					<span>Month</span>
+					<input class="input-month" type="text" placeholder="MM  " />
+					<p class="error-month"></p>
+				</div>
+
+				<div class="year-input">
+					<span>Year</span>
+					<input class="input-year" type="text" placeholder="YYYY" />
+					<p class="error-year"></p>
+				</div>
+			</div>
+
+			<hr />
+			<div class="image-container">
+				<img src="assets/images/icon-arrow.svg" alt="" />
+			</div>
+
+			<div class="age-results">
+				<p class="year"><span class="display-result year">--</span> years</p>
+				<p class="months"><span class="display-result month">--</span> months</p>
+				<p class="days"><span class="display-result days">--</span> days</p>
+			</div>
+		</div>
+
+		<div class="attribution">
+			Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by
+			<a href="https://www.frontendmentor.io/profile/NichitaGabriel">Nichita Gabriel</a>.
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+</html>
