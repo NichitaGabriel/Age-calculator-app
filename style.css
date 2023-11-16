@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
@@ -8,6 +9,8 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	height: 100vh;
 
 	background-color: hsl(0, 0%, 94%);
 	font-family: "Poppins", sans-serif;
@@ -19,9 +22,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 10rem;
 	background-color: hsl(0, 0%, 100%);
-	border-radius: 25px 25px 100px 25px;
+	border-radius: 25px 25px 200px 25px;
 }
 
 .age-inputs {
@@ -69,31 +71,41 @@ body {
 	color: hsl(0, 100%, 67%);
 }
 
+.get-results {
+	width: 350px;
+	margin-top: 2rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
 hr {
-	width: 340px;
+	width: 320px;
 	margin-top: 3rem;
 	margin-bottom: 3rem;
 	border: none;
 	height: 1px;
 	background-color: hsl(0, 0%, 86%);
-	position: relative;
 }
 
-.image-container {
+.arrow-icon-container {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	top: 13%;
+	right: 40%;
+	background-color: hsl(259, 100%, 65%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: absolute;
-	width: 70px;
-	height: 70px;
-	background-color: hsl(259, 100%, 65%);
-	border-radius: 50%;
-	top: 306px;
 }
 
-.image-container img {
-	width: 26px;
-	height: 26px;
+.arrow-icon {
+	width: 30px;
+	height: 30px;
 }
 
 .age-results {
@@ -119,8 +131,8 @@ hr {
 
 @media screen and (min-width: 426px) and (max-width: 2560px) {
 	.age-calculator {
-		width: 850px;
-		height: 600px;
+		width: 760px;
+		height: 650px;
 	}
 
 	.age-inputs {
@@ -168,30 +180,30 @@ hr {
 		color: hsl(0, 100%, 67%);
 	}
 
+	.get-results {
+		width: 760px;
+		margin-bottom: 4rem;
+	}
+
 	hr {
 		width: 700px;
-		border: none;
-		height: 1px;
-		background-color: hsl(0, 0%, 86%);
-		margin-bottom: 6rem;
 	}
 
-	.image-container {
-		right: 600px;
-		width: 100px;
-		height: 100px;
-		top: 290px;
+	.arrow-icon-container {
+		width: 130px;
+		height: 130px;
+		top: -15%;
+		right: 4%;
 	}
 
-	.image-container img {
-		right: 410px;
-		width: 50px;
-		height: 50px;
-	}
-
-	.image-container:hover {
+	.arrow-icon-container:hover {
 		background-color: hsl(0, 0%, 8%);
 		cursor: pointer;
+	}
+
+	.arrow-icon {
+		width: 70px;
+		height: 70px;
 	}
 
 	.age-results {
