@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const displayMonth = document.querySelector('.display-result.month');
     const displayDay = document.querySelector('.display-result.days');
 
-    const imageContainer = document.querySelector('.image-container');
+    const imageContainer = document.querySelector('.arrow-icon-container');
 
     function calculateAge() {
         const day = inputDay.value.trim();
