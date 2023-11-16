@@ -57,8 +57,8 @@ Mobile version
 
 ### Links
 
-- [Solution URL]([https://your-solution-url.com](https://github.com/NichitaGabriel/Age-calculator-app))
-- [Live Site URL]([https://your-live-site-url.com](https://nichitagabriel.github.io/Age-calculator-app/))
+- [Solution URL](https://github.com/NichitaGabriel/Age-calculator-app)
+- [Live Site URL](https://nichitagabriel.github.io/Age-calculator-app/)
 
 ## My process
 
