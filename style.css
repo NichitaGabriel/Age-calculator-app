@@ -190,9 +190,9 @@ hr {
 	}
 
 	.arrow-icon-container {
-		width: 130px;
-		height: 130px;
-		top: -15%;
+		width: 100px;
+		height: 100px;
+		top: 1%;
 		right: 4%;
 	}
 
@@ -202,8 +202,8 @@ hr {
 	}
 
 	.arrow-icon {
-		width: 70px;
-		height: 70px;
+		width: 50px;
+		height: 50px;
 	}
 
 	.age-results {
